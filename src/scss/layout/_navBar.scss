@@ -1,0 +1,32 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: #131212;
+    h3 {
+        font-size: 2rem;
+        color: #602525;
+    }
+    .navBarButtons {
+        all: initial;
+        margin: .5rem;
+        cursor: pointer;
+        font-size: 1.8rem;
+        color: #602525;
+        padding: 3rem;
+        &:hover {
+            color: red;
+        }
+        
+        &:focus {
+            color: blue;
+        }
+    }
+    .imgLogoContainer {
+        .imgLogo {
+            width: 2rem;
+        }
+    }
+}

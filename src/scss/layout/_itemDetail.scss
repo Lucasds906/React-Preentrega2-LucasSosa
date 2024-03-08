@@ -1,0 +1,36 @@
+.detailContainer {
+    background-image: url(../../../public/assets/img/background3.png);
+    background-size: cover;
+    height: 100vh;
+    padding-top: 10em ;
+    .cardDetail {
+        // background-image: url(../../../public/assets/img/background3.png);
+        display: flex;
+        flex-direction: row;
+        background: linear-gradient(57.3deg, #333333 44.45%, #212121 44.45%);
+        margin: auto;
+        width: 40%;
+        height: 30rem;
+        h2 {
+            text-align: center;
+            margin: 1rem;
+        }
+        p {
+            text-align: center;
+            margin: .5rem;
+        }
+        .cardCount {
+            text-align: center;
+            margin: 2rem;
+        }
+        .detailImg {
+            width: 70%;
+            height: 70%;
+            margin: auto;
+            img {
+                width: 100%;
+                height: 90%;
+            }
+        }
+    }
+}

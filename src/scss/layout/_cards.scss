@@ -1,0 +1,17 @@
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    .cards {
+        background-color: #464442;
+        width: 25rem;
+        height: 25rem;
+        text-align: center;
+        border: 1px solid black;
+        .cardsImg {
+            width: 100%;
+        }
+    }
+}
